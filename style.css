@@ -1,0 +1,45 @@
+:root {
+  --card-radius: 12px;
+}
+
+body {
+  background: #f8f9fa;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #dee2e6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-emp {
+  border-radius: var(--card-radius);
+}
+
+.card-emp:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.small-muted {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+#imagePreview {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#removeImageBtn {
+  height: 34px;
+  padding: 0.25rem 0.5rem;
+}
