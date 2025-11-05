@@ -22,11 +22,12 @@ function seedDemoData(){
   const cur = loadEmployees();
   if(cur.length > 0) return;
   const demo = [
-    { id: generateId(), name: 'Suhail Ahmed', department: 'IT', email: 'suhail_ahmed@gmail.com', phone: '9876501234', designation: 'Frontend Dev', joiningDate: '2023-02-15', profileImage: ./images/suhail.jpg },
-    { id: generateId(), name: 'Ajith kumar', department: 'HR', email: 'ajith.kumar@gmail.com', phone: '9876505678', designation: 'HR Manager', joiningDate: '2022-11-01', profileImage: ./images/ajith.jpeg },
-    { id: generateId(), name: 'Vijay Kumar', department: 'Finance', email: 'vijay_kumar@gmail.com', phone: '9876509999', designation: 'Accountant', joiningDate: '2021-09-23', profileImage: ./images/vijay.jpg }
+    { id: generateId(), name: 'Suhail Ahmed', department: 'IT', email: 'suhail_ahmed@gmail.com', phone: '9876501234', designation: 'Frontend Dev', joiningDate: '2023-02-15', profileImage: './images/suhail.jpg' },
+    { id: generateId(), name: 'Ajith kumar', department: 'HR', email: 'ajith.kumar@gmail.com', phone: '9876505678', designation: 'HR Manager', joiningDate: '2022-11-01', profileImage: './images/ajith.jpeg' },
+    { id: generateId(), name: 'Vijay Kumar', department: 'Finance', email: 'vijay_kumar@gmail.com', phone: '9876509999', designation: 'Accountant', joiningDate: '2021-09-23', profileImage: './images/vijay.jpg' }
   ];
   saveEmployees(demo);
 }
+
 
 
